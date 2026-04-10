@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica de Saúde Vital - Cuidado e Bem-estar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo">Saúde<span>Vital</span></div>
+            <ul>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Sua saúde em boas mãos, todos os dias.</h1>
+                <p>Na Clínica Vital, unimos tecnologia de ponta e um atendimento humanizado para garantir que você e sua família vivam com mais qualidade e bem-estar.</p>
+                <a href="#contato" class="btn">Agendar Consulta</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=800&auto=format&fit=crop" alt="Recepção moderna da Clínica Saúde Vital">
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="services">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="grid-services">
+                <div class="service-card">
+                    <h3>Atendimento Médico</h3>
+                    <p>Oferecemos um atendimento humanizado e de excelência, focado no seu histórico e cuidado integral.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Exames Laboratoriais</h3>
+                    <p>Contamos com tecnologia de ponta e rapidez nos resultados para diagnósticos precisos e seguros.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Aconselhamento Nutricional</h3>
+                    <p>Desenvolvemos planos alimentares personalizados para que você alcance seus objetivos com saúde.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Outros Procedimentos</h3>
+                    <p>Realizamos pequenos cuidados, curativos e triagem com agilidade e total segurança para o paciente.</p>
+                </div>
+            </div>
+            <div class="service-featured-img">
+                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=800&auto=format&fit=crop" alt="Médico realizando exame clínico detalhado">
+            </div>
+        </div>
+    </section>
+
+    <section id="equipe" class="team">
+        <div class="container">
+            <h2>Nossa Equipe Especializada</h2>
+            <div class="grid-team">
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=400&auto=format&fit=crop" alt="Dr. Roberto Mendes">
+                    <h3>Dr. Roberto Mendes</h3>
+                    <p class="specialty">Cardiologia</p>
+                    <p>Especialista em saúde do coração e prevenção de doenças cardiovasculares.</p>
+                </div>
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?q=80&w=400&auto=format&fit=crop" alt="Dra. Camila Souza">
+                    <h3>Dra. Camila Souza</h3>
+                    <p class="specialty">Nutrição Clínica</p>
+                    <p>Focada em reeducação alimentar e performance através da nutrição funcional.</p>
+                </div>
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=400&auto=format&fit=crop" alt="Dr. Fernando Alves">
+                    <h3>Dr. Fernando Alves</h3>
+                    <p class="specialty">Clínica Geral</p>
+                    <p>Atendimento integral para diagnóstico e cuidado preventivo da sua saúde.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2>Solicite um Contato</h2>
+            <p>Preencha os campos abaixo e nossa equipe retornará em breve.</p>
+            <form action="#" method="GET" class="contact-form">
+                <div class="form-group">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@contato.com" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="cidade">Cidade</label>
+                        <input type="text" id="cidade" name="cidade" placeholder="Sua cidade" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="estado">Estado</label>
+                        <select id="estado" name="estado" required>
+                            <option value="" disabled selected>Selecione seu Estado</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-submit">Solicitar Contato</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Clínica de Saúde Vital. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
